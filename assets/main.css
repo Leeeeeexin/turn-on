@@ -1,0 +1,40 @@
+
+body {
+  font-family: himelody;
+  padding: 3rem;
+  background-color: black;
+}
+
+.container {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.item {
+  max-width: 960px;
+  text-align: center;
+}
+
+.button {
+  background-color: black;
+  border: 2px solid;
+  padding: 20px;
+  font-size: 36px;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transform: scale(2, 2)
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}
